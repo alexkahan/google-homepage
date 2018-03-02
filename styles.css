@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #313131;
+  display: block;
+  padding: 4px;
+  width: 100%;
+}
+
+.navbar-item li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.selected {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.navbar a:visited, .navbar a:link {
+  color: #eae3e3;
+  text-decoration: none;
+}
+
+.main-logo img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 200px 0 50px 0;
+}
+
+form {
+  text-align: center;
+}
+
+.search-text {
+  width: 600px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.search-bar:active, .search-bar:focus {
+  text-shadow: 0 0 3px #428EE1;
+}
+
+.search-buttons {
+  background-color: #F6F6F6;
+  color: #828282;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  border: 1px solid #828282;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.ad {
+  color: #828282;
+  text-align: center;
+  margin-bottom: 200px;
+}
+/*
+footer p a {
+  text-decoration: none;
+  display: inline;
+}
+*/
+
+.alignleft {
+  float: left;
+  padding-left: 4px;
+}
+
+.alignright {
+  float: right;
+  padding-right: 4px;
+}
+
+.alignleft a, .alignright a {
+  text-decoration: none;
+}
