@@ -7,68 +7,100 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-  background-color: #313131;
-  display: block;
-  padding: 4px;
+nav {
   width: 100%;
+  font-size: 12px;
+  position: relative;
 }
 
-.navbar-item li {
+.icons-left {
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.icons-left li {
   display: inline;
+}
+
+.icons-right {
+  text-align: right;
+  position: relative;
+  top: -20px;
+  margin-right: 10px;
+}
+
+.icons-right li {
+  display: inline;
+}
+
+.icons-left li, .icons-right li{
   padding-right: 10px;
 }
 
-.selected {
-  color: #FFFFFF;
-  font-weight: bold;
+nav a:visited, nav a:link {
+  color: #3F3F3F;
+  text-decoration: none;
 }
 
-.navbar a:visited, .navbar a:link {
-  color: #eae3e3;
+nav a:hover {
+  color: #3F3F3F;
+  text-decoration: underline;
+}
+
+.sign-in {
+  background-color: #4480EF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.sign-in a:active, .sign-in a:link, .sign-in a:visited {
+  color: #FFFFFF;
+}
+
+.sign-in:hover a {
+  cursor: pointer;
   text-decoration: none;
 }
 
 .main-logo img {
-  width: 400px;
-  height: auto;
+  width: 300px;
   display: block;
   margin: 0 auto;
-  padding: 200px 0 50px 0;
+  padding: 100px 0 30px 0;
 }
 
 form {
   text-align: center;
 }
 
+.search-bar {
+
+}
+
 .search-text {
-  width: 600px;
-  height: 30px;
+  width: 400px;
+  height: 40px;
   font-size: 16px;
 }
 
-.search-bar:active, .search-bar:focus {
-  text-shadow: 0 0 3px #428EE1;
-}
-
 .search-buttons {
-  background-color: #F6F6F6;
-  color: #828282;
+  background-color: #F2F2F2;
+  color: #7a7a7a;
   margin-top: 15px;
   margin-bottom: 50px;
-  border: 1px solid #828282;
+  border: 1px solid #F2F2F2;
   border-radius: 3px;
-  padding: 5px;
+  padding: 10px;
 }
 
-.ad {
-  color: #828282;
-  text-align: center;
-  margin-bottom: 200px;
-}
-
-.ad a {
-  text-decoration: none;
+.search-buttons:hover {
+  background-color: #f9f7f7;
+  color: #000000;
+  border: 1px solid #F2F2F2;
 }
 
 /*
@@ -78,16 +110,31 @@ footer p a {
 }
 */
 
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #F2F2F2;
+  border: 1px solid #E3E3E3;
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+}
+
 .alignleft {
   float: left;
-  padding-left: 4px;
+  padding-left: 25px;
+  line-height: 50px;
 }
 
 .alignright {
   float: right;
-  padding-right: 4px;
+  padding-right: 15px;
+  line-height: 50px;
 }
+
 
 .alignleft a, .alignright a {
   text-decoration: none;
+  color: #666666;
+  padding-right: 20px;
 }
