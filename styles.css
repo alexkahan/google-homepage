@@ -66,6 +66,11 @@ form {
   text-align: center;
   margin-bottom: 200px;
 }
+
+.ad a {
+  text-decoration: none;
+}
+
 /*
 footer p a {
   text-decoration: none;
