@@ -10,31 +10,30 @@ body {
 nav {
   width: 100%;
   font-size: 12px;
-  position: relative;
 }
 
-.icons-left {
+.header-left {
   text-align: left;
   margin-left: 20px;
   padding-top: 20px;
 }
 
-.icons-left li {
+.header-left li {
   display: inline;
 }
 
-.icons-right {
+.header-right {
   text-align: right;
   position: relative;
   top: -20px;
   margin-right: 10px;
 }
 
-.icons-right li {
+.header-right li {
   display: inline;
 }
 
-.icons-left li, .icons-right li{
+.header-left li, .header-right li{
   padding-right: 10px;
 }
 
